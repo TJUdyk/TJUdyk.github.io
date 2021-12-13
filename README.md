@@ -1,6 +1,7 @@
 
 ### 小样本图像分类的论文的学术地图记录
 [目标榜单-SOTA]https://few-shot.yyliu.net
+
 [PaperWithCode]https://paperswithcode.com/task/few-shot-image-classification
 
 ### :heavy_check_mark: 提出问题
@@ -53,7 +54,7 @@
 - 3：CO-rellation的过程中和元学习有什么关系呢？
 
 
-### 日常工作记录
+### :fire: 日常工作记录
 - [x] 完成ATTENTIONAL CONSTELLATION NETS 的论文阅读+[调通代码](https://github.com/TJUdyk/ConstellationNet)
 - [x] 完成ReNEt的代码详细阅读 -打印出来Cross的图片
 - [ ] 找到CrossAttentionNetwork的代码阅读和使用   
@@ -67,7 +68,7 @@
 - [ ] 读ConvMix的代码和论文（已完成），使用channel attention
 - [ ] 参考论文vision permutator和S2MLPv2找到Branach attention相关的
 
-### 注意力机制的论文 
+### :banana: 注意力机制的论文 
 - 最新的计算机视觉注意力机制(Attention)综述！[知乎Link](https://zhuanlan.zhihu.com/p/438524916)
 - Patches are all you need?[知乎Link](https://www.zhihu.com/question/492712118/answer/2173720753)[PaperWithCode](https://paperswithcode.com/paper/patches-are-all-you-need)
 - NeurIPS2021 港大&腾讯AI Lab&牛津提出：CARE，让CNN和Transformer能在对比学习中“互帮互助”！[CSDN Link](https://blog.csdn.net/moxibingdao/article/details/121219821)
@@ -76,7 +77,7 @@
 - [ ] 注意力机制（Visual Attention）https://zhuanlan.zhihu.com/p/324245989
 - [ ] 注意力机制的Spatial Domain和Channel Domain https://blog.csdn.net/weixin_39552472/article/details/110746151
 
-### 对自己提出一些问题
+### :apple: 对自己提出一些问题
 - Global Avg Pooling的作用GAP+FC的组合
 - branach Attention 分别沿着HWC的三个channel做branch attention  参考论文vision permutator和S2MLPv2
 - 1*1卷积：好处是可以允许不同的channel和Spatial locations交流；坏处：让patch不再互相联系和receptive field消失
