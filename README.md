@@ -4,7 +4,7 @@
 
 [PaperWithCode]https://paperswithcode.com/task/few-shot-image-classification
 
-### :heavy_check_mark: 提出问题
+### :love: 提出问题
 - 1：CNN观察到local的信息，使用Attention机制观察global的信息
 - 2：将Transformer的时间复杂度由（H^2*W^2）降低到（H^2+W^2）使用拼接的方式；Q*k-Q+K
 - 3：解决怎么看，看哪里，如何看，看多久（看清楚）的问题-神经科学的知识
@@ -16,7 +16,7 @@
 - 9: channel是640维度,spatial是5*5的,如何从channel和spatial创新呢?
 -10: resnet+long-range depency的问题如何解决?
 -11: CBAM和SeNET以及其他的是Spatial和Channel相互独立计算,并没有太多的交流,如何解决这个问题呢?
-### :heavy_check_mark: 核心创新点：
+### :rainbow: 核心创新点：
 - 0：提出一种端到端的可以学习到显式和隐式的representations
 - 1：使用数据增强的方式避免数据过拟合（训练的方式）使用Transductive还是inductive的方法？
 - 2：将Transformer应用在小数据集上，突破了小数据集的瓶颈；在self-attention继续Transformer解决看的更清楚
