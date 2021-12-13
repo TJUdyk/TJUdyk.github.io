@@ -4,7 +4,7 @@
 
 [PaperWithCode]https://paperswithcode.com/task/few-shot-image-classification
 
-### :sun: 提出问题
+### :sparkling_hearts: 提出问题
 - 1：CNN观察到local的信息，使用Attention机制观察global的信息
 - 2：将Transformer的时间复杂度由（H^2*W^2）降低到（H^2+W^2）使用拼接的方式；Q*k-Q+K
 - 3：解决怎么看，看哪里，如何看，看多久（看清楚）的问题-神经科学的知识
@@ -30,7 +30,7 @@
 - 9: +和*的操作如果给对应的添加相应的权重-公式的创新
 
 
-### :heavy_check_mark: 待做的消融实验
+### :star2: 待做的消融实验
 - 1：postional的问题：先做self-attention（local representation）还是先做cross-attention（global representation）
 - 2：证明不单是增加模型的复杂度使用更深的网络更多的卷积达到的效果
 - 3：有必要在SCR模块将模型变成四维的部分？4D卷积有什么用，探究去掉4D卷积的效果；小数据集在高维空间的表示如何？
