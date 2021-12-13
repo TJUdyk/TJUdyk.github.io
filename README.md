@@ -4,7 +4,7 @@
 
 [PaperWithCode]https://paperswithcode.com/task/few-shot-image-classification
 
-### :love: 提出问题
+### :sun: 提出问题
 - 1：CNN观察到local的信息，使用Attention机制观察global的信息
 - 2：将Transformer的时间复杂度由（H^2*W^2）降低到（H^2+W^2）使用拼接的方式；Q*k-Q+K
 - 3：解决怎么看，看哪里，如何看，看多久（看清楚）的问题-神经科学的知识
