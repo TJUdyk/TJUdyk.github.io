@@ -28,7 +28,7 @@
 - 7：将图片分成两种，一种是用CNN和Attention机制，另一种是使用CeiT，两者作为embedding结合提取不同尺度的特征
 - 8: 模型压缩:CBAM和SCR以及SENEt都需要大量的参数,这里提出一种pamaters-free的方式
 - 9: +和*的操作如果给对应的添加相应的权重-公式的创新
-
+-
 
 ### :star2: 待做的消融实验
 - 1：postional的问题：先做self-attention（local representation）还是先做cross-attention（global representation）
@@ -36,7 +36,7 @@
 - 3：有必要在SCR模块将模型变成四维的部分？4D卷积有什么用，探究去掉4D卷积的效果；小数据集在高维空间的表示如何？
 - 4：什么时间模型需要权重共享，在哪里需要权重共享，为什么需要权重共享？
 - 5：将Transformer应用在小数据集上，可以针对老的Transformer进行对比实验，与经典的模型进行对比实验
-- 6:<font clolor= red>syhah</font>
+- 6: 和SeNEt/Nonlocal/tripleNet/CBAM/BAM对比Attention模块
 ### :books: 模型结构改进相关的：
 
 - 1：减少模型的参数量，降低模型的参数量，SCR（157.K，CCA45.8K）-**************
@@ -88,3 +88,34 @@
 - CNN的优点：inductive biases1：translation invariance和local connectivity
 - 使用更大的卷积核来替代MLP和self-attention（可以mix distant Spatial locations）
 - CBAM和SeNEt 需要获得number of learnable paramaters的参数
+
+### :sparkling_heart: 待实现的github仓库
+- [sicara/easy-few-shot-learning](https://github.com/sicara/easy-few-shot-learning)
+- [icoz69/DeepEMD](https://github.com/icoz69/DeepEMD)
+- [liulu112601/URT](https://github.com/liulu112601/URT)
+- [dvornikita/fewshot_ensemble](https://github.com/dvornikita/fewshot_ensemble)
+- [peymanbateni/simple-cnaps](https://github.com/peymanbateni/simple-cnaps)
+- [Li-ZK/DCFSL-2021](https://github.com/Li-ZK/DCFSL-2021)
+- [xhw205/Domain-specific-Fewshot-Learning](https://github.com/xhw205/Domain-specific-Fewshot-Learning)
+- [plai-group/simple-cnaps](https://github.com/plai-group/simple-cnaps)
+- [ArmanAfrasiyabi/associative-alignment-fs](https://github.com/ArmanAfrasiyabi/associative-alignment-fs)
+- [Shandilya21/Few-Shot](https://github.com/Shandilya21/Few-Shot)
+- [XiSHEN0220/SSR](https://github.com/XiSHEN0220/SSR)
+- [wbw520/MTUNet](https://github.com/wbw520/MTUNet)
+- [arjish/PreTrainedFullLibrary_FewShot](https://github.com/arjish/PreTrainedFullLibrary_FewShot)
+- [giovcandido/prototypical-networks](https://github.com/giovcandido/prototypical-networks)
+- [chrisyxue/RCN_for_Interpretable_few_shot](https://github.com/chrisyxue/RCN_for_Interpretable_few_shot)
+- [zoraup/SPNet](https://github.com/zoraup/SPNet)
+- [GuChenghs/MCRNet](https://github.com/GuChenghs/MCRNet)
+- [PRIS-CV/BSNet](https://github.com/PRIS-CV/BSNet)
+- [ctom2/latent-space-transform](https://github.com/ctom2/latent-space-transform)
+- [s-a-malik/multi-few ](https://github.com/s-a-malik/multi-few)
+- [chrisyxue/RMN-RPN-for-FSL]( https://github.com/chrisyxue/RMN-RPN-for-FSL)
+- [Kostis-S-Z/exploring_meta](https://github.com/Kostis-S-Z/exploring_meta)
+- [zixuan-chen/few-shot-image-classification](https://github.com/zixuan-chen/few-shot-image-classification)
+- [KamalM8/Few-Shot-learning-Fashion](https://github.com/KamalM8/Few-Shot-learning-Fashion)
+- [Rajeshyd0308/Few_Shot_Image_Classification ](https://github.com/Rajeshyd0308/Few_Shot_Image_Classification)
+- [JoeyLr/Few-Shot-Classification-with-Siamese-Network](https://github.com/JoeyLr/Few-Shot-Classification-with-Siamese-Network)
+- [ArmanAfrasiyabi/MixtFSL-fs ](https://github.com/ArmanAfrasiyabi/MixtFSL-fs)
+- [cv21rgt/Eye-Disease-Classification-Few-Shot-Learning](https://github.com/cv21rgt/Eye-Disease-Classification-Few-Shot-Learning)
+
